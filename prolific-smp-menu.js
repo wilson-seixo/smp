@@ -29,11 +29,11 @@ var smp_menu_html = `
                         <div class="slidecontainer">
                             <input type="range" min="5" max="30" value="15" class="range-slider round">
                         </div>
-                        <div class="display"><span>15</span></div>
+                        <div class="display"><span>n</span> secs</div>
                     </div>
                 </div>
                 <div class="opt">
-                    <div class="opt-label">Next update in <span></span> seconds</div>
+                    <div class="opt-label">Next update in <span>n</span> seconds</div>
                 </div>
             </div>
         </div>
@@ -53,7 +53,7 @@ var smp_menu_html = `
                         <div class="slidecontainer">
                             <input type="range" min="5" max="30" value="15" class="range-slider round">
                         </div>
-                        <div class="display"><span>15</span></div>
+                        <div class="display"><span>n</span> secs</div>
                     </div>
                 </div>
             </div>
@@ -177,6 +177,12 @@ var smp_menu_style = `
         padding-bottom: 6px;
         font-size: 11px;
         color: #ccc;
+    }
+    #smp-menu .content .opt-label span {
+        color: #fff;
+    }
+    #smp-menu .content .opt-label .secs {
+        color: #green;
     }
     #smp-menu .content .range-container {
         display:flex;
