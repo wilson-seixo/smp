@@ -17,15 +17,15 @@ var smp_menu_html = `
             <div class="cat-label">Notifications</div>
             <div class="options">
                 <div class="opt">
-                    <div class="opt-label">Update Interval</div>
-                    <label class="switch">
+                    <div class="opt-label">State</div>
+                    <label class="notif-int switch">
                         <input type="checkbox" checked>
                         <span class="slider round"></span>
                     </label>
                 </div>
                 <div class="opt">
-                    <div class="opt-label">Duration</div>
-                    <div class="range-container duration">
+                    <div class="opt-label">Interval</div>
+                    <div class="range-container notif-int">
                         <div class="slidecontainer">
                             <input type="range" min="5" max="30" value="15" class="range-slider round">
                         </div>
@@ -33,7 +33,7 @@ var smp_menu_html = `
                     </div>
                 </div>
                 <div class="opt">
-                    <div class="opt-label">Next update in <span>n</span> seconds</div>
+                    <div class="opt-label notif-countdown">Next update in <span>n</span> seconds</div>
                 </div>
             </div>
         </div>
@@ -42,14 +42,14 @@ var smp_menu_html = `
             <div class="options">
                 <div class="opt">
                     <div class="opt-label">Sound</div>
-                    <label class="switch">
+                    <label class="forced-int switch">
                         <input type="checkbox" checked>
                         <span class="slider round"></span>
                     </label>
                 </div>
                 <div class="opt">
                     <div class="opt-label">Interval</div>
-                    <div class="range-container interval">
+                    <div class="range-container forced-int">
                         <div class="slidecontainer">
                             <input type="range" min="5" max="30" value="15" class="range-slider round">
                         </div>
