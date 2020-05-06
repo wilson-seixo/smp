@@ -2,7 +2,8 @@ var smp_menu_html = `
 <div data-v-5c058ce5="" id="smp-menu" style="display: none;">
     <div data-v-5c058ce5="" class="nav">
         <a class="right nav-lnk active" style="" id="smp-studies">studies</a>
-         <a class="right nav-lnk" id="smp-settings">settings</a>
+        <a class="right nav-lnk" id="smp-settings">settings</a>
+        <a class="right nav-lnk" id="smp-misc">misc</a>
     </div>
     <div data-v-5c058ce5="" class="content studies">
         <div class="study">
