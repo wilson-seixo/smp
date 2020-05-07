@@ -116,9 +116,9 @@ var smp_menu_style = `
         padding: 5px 0;
     }
     #smp-menu .content.studies > div.info{
+        font-size: 12px;
         text-align: center;
         padding: 15px;
-        font-weight: 600;
         text-transform: uppercase;
     }
     #smp-menu .content .study {
