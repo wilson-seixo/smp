@@ -20,16 +20,24 @@ var smp_menu_html = `
                     </label>
                 </div>
                 <div class="opt">
-                    <div class="opt-label">Interval</div>
+                    <div class="opt-label">Update Interval</div>
                     <div class="range-container notif-int">
                         <div class="slidecontainer">
                             <input type="range" min="5" max="30" value="15" class="range-slider round">
                         </div>
                         <div class="display"><span>n</span> secs</div>
                     </div>
+                    <div class="opt-label notif-countdown">Next update in <span>n</span> seconds</div>
                 </div>
                 <div class="opt">
-                    <div class="opt-label notif-countdown">Next update in <span>n</span> seconds</div>
+                    <div class="opt-label">Mute Timeout</div>
+                    <div class="range-container mute-int">
+                        <div class="slidecontainer">
+                            <input type="range" min="10" max="60" value="15" class="range-slider round">
+                        </div>
+                        <div class="display"><span>n</span> secs</div>
+                    </div>
+                    <div class="opt-label mute-timeout">Unmute in <span>n</span> seconds</div>
                 </div>
             </div>
         </div>
@@ -130,7 +138,7 @@ var smp_menu_style = `
         cursor: pointer;
     }
     #smp-menu .content .study:hover {
-        background-color:#425370;
+        background-color:#394760;
     }
     #smp-menu .content .study div {
         /*display: inline-block;*/
