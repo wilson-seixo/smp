@@ -127,6 +127,10 @@ var smp_menu_style = `
         background-color:#2f3b50;
         margin: 5px 0;
         color: #fff;
+        cursor: pointer;
+    }
+    #smp-menu .content .study:hover {
+        background-color:#425370;
     }
     #smp-menu .content .study div {
         /*display: inline-block;*/
@@ -134,6 +138,7 @@ var smp_menu_style = `
     }
     #smp-menu .content .study .time {
         padding-left: 20px;
+        text-align: center;
     }
     #smp-menu .content .study .info {
         flex-grow: 1;
