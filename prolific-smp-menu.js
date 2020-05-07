@@ -6,7 +6,7 @@ var smp_menu_html = `
         <a class="right nav-lnk" id="smp-misc">misc</a>
     </div>
     <div data-v-5c058ce5="" class="content studies">
-        <span class="info">No studies</span>
+        <div class="info">No studies</div>
     </div>
     <div data-v-5c058ce5="" class="content settings" style="display:none;">
         <div class="category">
@@ -115,8 +115,11 @@ var smp_menu_style = `
         background-color: #1e2e3c;
         padding: 5px 0;
     }
-    #smp-menu .content.studies span.info{
+    #smp-menu .content.studies > div.info{
         text-align: center;
+        padding: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
     }
     #smp-menu .content .study {
         display: flex;
