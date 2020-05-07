@@ -160,6 +160,7 @@ var smp_menu_style = `
         box-sizing: border-box;
         width: 30%;
         color: #fff;
+        font-size: 12px;
         /*font-weight: 600;*/
     }
     #smp-menu .content .options {
