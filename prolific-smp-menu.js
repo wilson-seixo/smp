@@ -196,11 +196,12 @@ var smp_menu_style = `
         text-transform: uppercase;
         padding-bottom: 6px;
         font-size: 11px;
-        color: #ccc;
+        color: #f9f9f9;
     }
     #smp-menu .content .opt-label.info {
         text-transform: none;
         padding: 2px 0 4px;
+        color: #ccc;
     }
     #smp-menu .content .opt-label span {
         color: #fff;
