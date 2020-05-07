@@ -27,7 +27,7 @@ var smp_menu_html = `
                         </div>
                         <div class="display"><span>n</span> secs</div>
                     </div>
-                    <div class="opt-label notif-countdown">Next update in <span>n</span> seconds</div>
+                    <div class="opt-label info notif-countdown">Next update in <span>n</span> seconds</div>
                 </div>
                 <div class="opt">
                     <div class="opt-label">Mute Timeout</div>
@@ -37,7 +37,7 @@ var smp_menu_html = `
                         </div>
                         <div class="display"><span>n</span> secs</div>
                     </div>
-                    <div class="opt-label mute-timeout">Unmute in <span>n</span> seconds</div>
+                    <div class="opt-label info mute-timeout">Unmute in <span>n</span> seconds</div>
                 </div>
             </div>
         </div>
@@ -197,6 +197,10 @@ var smp_menu_style = `
         padding-bottom: 6px;
         font-size: 11px;
         color: #ccc;
+    }
+    #smp-menu .content .opt-label.info {
+        text-transform: none;
+        padding: 2px 0 4px;
     }
     #smp-menu .content .opt-label span {
         color: #fff;
