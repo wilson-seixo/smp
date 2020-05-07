@@ -6,11 +6,7 @@ var smp_menu_html = `
         <a class="right nav-lnk" id="smp-misc">misc</a>
     </div>
     <div data-v-5c058ce5="" class="content studies">
-        <div class="study">
-            <div class="time">20:08</div>
-            <div class="info"><span>Evaluation of new technologies</span><br>20 minutes</div>
-            <div class="reward">£2.00</div>
-        </div>
+        <span class="info">No studies</span>
     </div>
     <div data-v-5c058ce5="" class="content settings" style="display:none;">
         <div class="category">
@@ -118,6 +114,9 @@ var smp_menu_style = `
     #smp-menu .content {
         background-color: #1e2e3c;
         padding: 5px 0;
+    }
+    #smp-menu .content.studies span.info{
+        text-align: center;
     }
     #smp-menu .content .study {
         display: flex;
