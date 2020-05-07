@@ -140,6 +140,10 @@ var smp_menu_style = `
         padding-left: 20px;
         text-align: center;
     }
+    #smp-menu .content .study .time span {
+        font-size: 12px;
+        color: #ccc;
+    }
     #smp-menu .content .study .info {
         flex-grow: 1;
         color: #bbb;
