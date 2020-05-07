@@ -159,7 +159,7 @@ var smp_menu_style = `
         border-right: 1px solid #666;
         box-sizing: border-box;
         width: 30%;
-        color: #ccc;
+        color: #fff;
         /*font-weight: 600;*/
     }
     #smp-menu .content .options {
