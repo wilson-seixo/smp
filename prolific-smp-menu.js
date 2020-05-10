@@ -322,5 +322,20 @@ var smp_menu_style = `
         overflow: visible;
         /*box-shadow: -200px 0 0 200px #2196F3;*/
     }
+    
+    #smp-force{
+        opacity: 0.6;
+    }
+    #smp-force:hover{
+        opacity: 0.8;
+    }
+    #smp-force span{
+        width: 20px;
+        color: #fff;
+    }
+    #smp-force span:hover{
+        opacity: 0.8;
+    }
+
 
 </style>`
