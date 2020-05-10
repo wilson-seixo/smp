@@ -330,6 +330,7 @@ var smp_menu_style = `
         padding: 14px;
         font-weight: normal;
         line-height: 1;
+        width: 54px;
     }
     #smp-force:hover{
         opacity: 0.8;
