@@ -122,9 +122,10 @@ var smp_menu_style = `
         color: #fff;
     }
     #smp-menu .content-container {
-        flex: 1;
-        display: flex;
+        /*flex: 1;*/
+        /*display: flex;*/
         overflow: auto;
+    max-height: 50px;
     }
     #smp-menu .content {
         background-color: #1e2e3c;
@@ -132,9 +133,8 @@ var smp_menu_style = `
         display: flex;
         min-height: min-content;
     }
-    #smp-menu .content.studies{
+    #smp-menu .content.studies {
         max-height: 400px;
-        overflow: scroll;
     }
     #smp-menu .content.studies > div.info{
         font-size: 12px;
