@@ -188,12 +188,15 @@ var smp_menu_style = `
         display: inline-block;
         background: url('https://www.gstatic.com/images/icons/material/system/1x/close_white_20dp.png') center no-repeat;
         background-size: 14px;
-        width: 20px;
-        height: 20px;
+        width: 18px;
+        height: 18px;
         border-radius: 10px;
     }
     #smp-menu .content .study .delete span:hover {
         background-color: #4d5f80;
+    }
+    #smp-menu .content .study .delete.active span {
+        background-color: #a32929;
     }
     #smp-menu .content .category {
         display: flex;
