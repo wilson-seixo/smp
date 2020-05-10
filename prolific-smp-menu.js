@@ -130,8 +130,6 @@ var smp_menu_style = `
     #smp-menu .content {
         background-color: #1e2e3c;
         padding: 5px 0;
-        display: flex;
-        min-height: min-content;
     }
     #smp-menu .content.studies {
         max-height: 400px;
