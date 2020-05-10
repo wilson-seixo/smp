@@ -324,6 +324,8 @@ var smp_menu_style = `
     }
     
     #smp-force{
+        border: none;
+        background: url(https://www.gstatic.com/images/icons/material/system/1x/refresh_black_20dp.png) center no-repeat;
         opacity: 0.6;
     }
     #smp-force:hover{
@@ -332,9 +334,10 @@ var smp_menu_style = `
     #smp-force span{
         width: 20px;
         color: #fff;
+        background-color: #2eb82e;
     }
     #smp-force span:hover{
-        opacity: 0.8;
+        background-color: #ff3333;
     }
 
 
