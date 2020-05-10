@@ -5,59 +5,61 @@ var smp_menu_html = `
         <a class="right nav-lnk" id="smp-settings">settings</a>
         <a class="right nav-lnk" id="smp-misc">misc</a>
     </div>
-    <div data-v-5c058ce5="" class="content studies">
-        <div class="info">No studies</div>
-    </div>
-    <div data-v-5c058ce5="" class="content settings" style="display:none;">
-        <div class="category">
-            <div class="cat-label">Notifications</div>
-            <div class="options">
-                <div class="opt">
-                    <div class="opt-label">State</div>
-                    <label class="notif-int switch">
-                        <input type="checkbox" checked>
-                        <span class="slider round"></span>
-                    </label>
-                </div>
-                <div class="opt">
-                    <div class="opt-label">Update Interval</div>
-                    <div class="range-container notif-int">
-                        <div class="slidecontainer">
-                            <input type="range" min="5" max="30" value="15" class="range-slider round">
-                        </div>
-                        <div class="display"><span>n</span> secs</div>
+    <div class="content-container">
+        <div data-v-5c058ce5="" class="content studies">
+            <div class="info">No studies</div>
+        </div>
+        <div data-v-5c058ce5="" class="content settings" style="display:none;">
+            <div class="category">
+                <div class="cat-label">Notifications</div>
+                <div class="options">
+                    <div class="opt">
+                        <div class="opt-label">State</div>
+                        <label class="notif-int switch">
+                            <input type="checkbox" checked>
+                            <span class="slider round"></span>
+                        </label>
                     </div>
-                    <div class="opt-label info notif-countdown">Next update in <span>n</span> seconds</div>
-                </div>
-                <div class="opt">
-                    <div class="opt-label">Mute Timeout</div>
-                    <div class="range-container mute-int">
-                        <div class="slidecontainer">
-                            <input type="range" min="10" max="60" value="15" class="range-slider round">
+                    <div class="opt">
+                        <div class="opt-label">Update Interval</div>
+                        <div class="range-container notif-int">
+                            <div class="slidecontainer">
+                                <input type="range" min="5" max="30" value="15" class="range-slider round">
+                            </div>
+                            <div class="display"><span>n</span> secs</div>
                         </div>
-                        <div class="display"><span>n</span> secs</div>
+                        <div class="opt-label info notif-countdown">Next update in <span>n</span> seconds</div>
                     </div>
-                    <div class="opt-label info mute-timeout">Unmute in <span>n</span> seconds</div>
+                    <div class="opt">
+                        <div class="opt-label">Mute Timeout</div>
+                        <div class="range-container mute-int">
+                            <div class="slidecontainer">
+                                <input type="range" min="10" max="60" value="15" class="range-slider round">
+                            </div>
+                            <div class="display"><span>n</span> secs</div>
+                        </div>
+                        <div class="opt-label info mute-timeout">Unmute in <span>n</span> seconds</div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="category">
-            <div class="cat-label">Forced Entry</div>
-            <div class="options">
-                <div class="opt">
-                    <div class="opt-label">Sound</div>
-                    <label class="forced-int switch">
-                        <input type="checkbox" checked>
-                        <span class="slider round"></span>
-                    </label>
-                </div>
-                <div class="opt">
-                    <div class="opt-label">Interval</div>
-                    <div class="range-container forced-int">
-                        <div class="slidecontainer">
-                            <input type="range" min="5" max="30" value="15" class="range-slider round">
+            <div class="category">
+                <div class="cat-label">Forced Entry</div>
+                <div class="options">
+                    <div class="opt">
+                        <div class="opt-label">Sound</div>
+                        <label class="forced-int switch">
+                            <input type="checkbox" checked>
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="opt">
+                        <div class="opt-label">Interval</div>
+                        <div class="range-container forced-int">
+                            <div class="slidecontainer">
+                                <input type="range" min="5" max="30" value="15" class="range-slider round">
+                            </div>
+                            <div class="display"><span>n</span> secs</div>
                         </div>
-                        <div class="display"><span>n</span> secs</div>
                     </div>
                 </div>
             </div>
@@ -119,9 +121,16 @@ var smp_menu_style = `
         background-color: #4b5e81;
         color: #fff;
     }
+    #smp-menu .content-container
+        flex: 1;
+        display: flex;
+        overflow: auto;
+    }
     #smp-menu .content {
         background-color: #1e2e3c;
         padding: 5px 0;
+        display: flex;
+        min-height: min-content;
     }
     #smp-menu .content.studies{
         max-height: 400px;
