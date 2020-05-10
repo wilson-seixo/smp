@@ -327,14 +327,23 @@ var smp_menu_style = `
         border: none;
         background: url(https://www.gstatic.com/images/icons/material/system/1x/refresh_black_20dp.png) center no-repeat;
         opacity: 0.6;
+        padding: 14px;
+        font-weight: normal;
+        line-height: 1;
     }
     #smp-force:hover{
         opacity: 0.8;
     }
     #smp-force span{
-        width: 20px;
+        display: inline-block;
+        width: 26px;
         color: #fff;
         background-color: #2eb82e;
+        height: 26px;
+        padding: 5px;
+        font-family: inherit;
+        font-size: 15px;
+        border-radius: 14px;
     }
     #smp-force span:hover{
         background-color: #ff3333;
