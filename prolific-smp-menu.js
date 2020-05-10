@@ -172,6 +172,12 @@ var smp_menu_style = `
         color: #00ff55;
         text-align: left;
     }
+    #smp-menu .content .study .delete {
+        background: url('https://www.gstatic.com/images/icons/material/system/1x/close_white_20dp.png') center no-repeat;
+    }
+    #smp-menu .content .study .delete:hover {
+        background-color: #4d5f80;
+    }
     #smp-menu .content .category {
         display: flex;
         padding: 10px 10px 5px;
