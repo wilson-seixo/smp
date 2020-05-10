@@ -12,7 +12,7 @@ var smp_menu_html = `
         <div data-v-5c058ce5="" class="content settings" style="display:none;">
             <div class="category">
                 <div class="cat-label">Notifications</div>
-                <div class="options">
+                <div class="options notifications">
                     <div class="opt">
                         <div class="opt-label">State</div>
                         <label class="notif-int switch">
@@ -44,7 +44,7 @@ var smp_menu_html = `
             </div>
             <div class="category">
                 <div class="cat-label">Forced Entry</div>
-                <div class="options">
+                <div class="options forced-entry">
                     <div class="opt">
                         <div class="opt-label">Sound</div>
                         <label class="forced-int switch">
