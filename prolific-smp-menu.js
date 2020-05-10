@@ -331,6 +331,7 @@ var smp_menu_style = `
         font-weight: normal;
         line-height: 1;
         width: 54px;
+        text-align: center;
     }
     #smp-force:hover{
         opacity: 0.8;
@@ -345,9 +346,10 @@ var smp_menu_style = `
         font-family: inherit;
         font-size: 15px;
         border-radius: 14px;
+        text-align: center;
     }
     #smp-force span:hover{
-        background-color: #ff3333;
+        opacity: 0.6;
     }
 
 
