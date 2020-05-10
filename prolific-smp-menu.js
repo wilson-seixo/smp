@@ -355,6 +355,10 @@ var smp_menu_style = `
         overflow: visible;
         /*box-shadow: -200px 0 0 200px #2196F3;*/
     }
+
+    .range-slider:disabled::-webkit-slider-thumb {
+        cursor: default;
+    }
     
     #smp-force{
         border: none;
