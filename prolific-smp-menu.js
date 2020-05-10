@@ -121,7 +121,7 @@ var smp_menu_style = `
         background-color: #4b5e81;
         color: #fff;
     }
-    #smp-menu .content-container
+    #smp-menu .content-container {
         flex: 1;
         display: flex;
         overflow: auto;
