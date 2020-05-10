@@ -123,6 +123,10 @@ var smp_menu_style = `
         background-color: #1e2e3c;
         padding: 5px 0;
     }
+    #smp-menu .content.studies{
+        max-height: 400px;
+        overflow: scroll;
+    }
     #smp-menu .content.studies > div.info{
         font-size: 12px;
         text-align: center;
@@ -164,6 +168,7 @@ var smp_menu_style = `
         padding-right: 20px;
         font-weight: 600;
         color: #00ff55;
+        text-align: left;
     }
     #smp-menu .content .category {
         display: flex;
