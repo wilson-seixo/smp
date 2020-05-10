@@ -122,17 +122,12 @@ var smp_menu_style = `
         color: #fff;
     }
     #smp-menu .content-container {
-        /*flex: 1;*/
-        /*display: flex;*/
         overflow: auto;
-    max-height: 50px;
+        max-height: 400px;
     }
     #smp-menu .content {
         background-color: #1e2e3c;
         padding: 5px 0;
-    }
-    #smp-menu .content.studies {
-        max-height: 400px;
     }
     #smp-menu .content.studies > div.info{
         font-size: 12px;
