@@ -136,6 +136,7 @@ var smp_menu_style = `
         text-transform: uppercase;
     }
     #smp-menu .content .study {
+    position: relative;
         display: flex;
         align-items: center;
         background-color:#2f3b50;
