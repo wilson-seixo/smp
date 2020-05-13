@@ -199,6 +199,13 @@ var smp_menu_style = `
     #smp-menu .content .study .delete.active span {
         background-color: #a32929;
     }
+    #smp-menu .content .study .is-dot {
+        display: none;
+        position: absolute;
+        left: -3px;
+        margin-top: 4px;
+        border: none;
+    }
     #smp-menu .content .category {
         display: flex;
         padding: 10px 10px 5px;
