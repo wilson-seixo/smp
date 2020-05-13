@@ -200,7 +200,6 @@ var smp_menu_style = `
         background-color: #a32929;
     }
     #smp-menu .content .study .is-dot {
-        display: none;
         position: absolute;
         left: -3px;
         margin-top: 4px;
