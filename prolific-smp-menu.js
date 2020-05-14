@@ -64,6 +64,21 @@ var smp_menu_html = `
                 </div>
             </div>
         </div>
+
+        <div data-v-5c058ce5="" class="content misc" style="display:none;">
+            <div class="category">
+                <div class="cat-label">Debug</div>
+                <div class="options debug">
+                    <div class="opt">
+                        <div class="opt-label">Logs</div>
+                        <label class="logs switch">
+                            <input type="checkbox" checked>
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>`
 var smp_menu_style = `
