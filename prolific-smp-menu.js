@@ -128,12 +128,12 @@ var smp_menu_style = `
         margin-left: 4px;
         vertical-align: bottom;
     }
-    #smp-menu .nav .nav-lnk.active{
-        background-color: #1e2e3c;
-        color: #fff;
-    }
     #smp-menu .nav .nav-lnk:hover{
         background-color: #4b5e81;
+        color: #fff;
+    }
+    #smp-menu .nav .nav-lnk.active{
+        background-color: #1e2e3c;
         color: #fff;
     }
     #smp-menu .content-container {
