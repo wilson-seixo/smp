@@ -21,7 +21,7 @@ var smp_menu_html = `
                         </label>
                     </div>
                     <div class="opt">
-                        <div class="opt-label">Update Interval</div>
+                        <div class="opt-label">Prolific Interval</div>
                         <div class="range-container notif-int">
                             <div class="slidecontainer">
                                 <input type="range" min="5" max="30" value="15" class="range-slider round">
@@ -29,6 +29,16 @@ var smp_menu_html = `
                             <div class="display"><span>n</span> secs</div>
                         </div>
                         <div class="opt-label info notif-countdown">Next update in <span>n</span> seconds</div>
+                    </div>
+                    <div class="opt">
+                        <div class="opt-label">Server Interval</div>
+                        <div class="range-container sv-notif-int">
+                            <div class="slidecontainer">
+                                <input type="range" min="5" max="30" value="15" class="range-slider round">
+                            </div>
+                            <div class="display"><span>n</span> secs</div>
+                        </div>
+                        <div class="opt-label info sv-notif-countdown">Next update in <span>n</span> seconds</div>
                     </div>
                     <div class="opt">
                         <div class="opt-label">Mute Timeout</div>
