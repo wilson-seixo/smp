@@ -41,6 +41,15 @@ var smp_menu_html = `
                         <div class="opt-label info sv-notif-countdown">Next update in <span>n</span> seconds</div>
                     </div>
                     <div class="opt">
+                        <div class="opt-label">Freshness Time</div>
+                        <div class="range-container freshness-int">
+                            <div class="slidecontainer">
+                                <input type="range" min="5" max="120" value="45" class="range-slider round">
+                            </div>
+                            <div class="display"><span>n</span> secs</div>
+                        </div>
+                    </div>
+                    <div class="opt">
                         <div class="opt-label">Mute Timeout</div>
                         <div class="range-container mute-int">
                             <div class="slidecontainer">
