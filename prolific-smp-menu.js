@@ -34,7 +34,7 @@ var smp_menu_html = `
                         <div class="opt-label">Server Interval</div>
                         <div class="range-container sv-notif-int">
                             <div class="slidecontainer">
-                                <input type="range" min="5" max="30" value="15" class="range-slider round">
+                                <input type="range" min="1" max="30" value="3" class="range-slider round">
                             </div>
                             <div class="display"><span>n</span> secs</div>
                         </div>
