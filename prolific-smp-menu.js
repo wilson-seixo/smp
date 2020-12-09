@@ -83,6 +83,7 @@ var smp_menu_html = `
                             <div class="slidecontainer">
                                 <input type="range" min="0.5" max="10" value="0.5" class="range-slider round">
                             </div>
+                            <div class="display"><span>n</span> £</div>
                         </div>
                     </div>
                     <div class="opt">
@@ -91,6 +92,7 @@ var smp_menu_html = `
                             <div class="slidecontainer">
                                 <input type="range" min="200" max="2000" value="333" class="range-slider round">
                             </div>
+                            <div class="display"><span>n</span> ms</div>
                         </div>
                     </div>
                     <div class="opt">
@@ -99,7 +101,7 @@ var smp_menu_html = `
                             <div class="slidecontainer">
                                 <input type="range" min="1" max="50" value="10" class="range-slider round">
                             </div>
-                            <div class="display"><span>n</span> tries left</div>
+                            <div class="display"><span>n</span> tries</div>
                         </div>
                     </div>
                 </div>
