@@ -14,7 +14,7 @@ var smp_menu_html = `
                 <div class="cat-label">Notifications</div>
                 <div class="options notifications">
                     <div class="opt">
-                        <div class="opt-label">State</div>
+                        <!-- <div class="opt-label">State</div> -->
                         <label class="notif-int switch">
                             <input type="checkbox" checked>
                             <span class="slider round"></span>
@@ -29,6 +29,13 @@ var smp_menu_html = `
                             <div class="display"><span>n</span> secs</div>
                         </div>
                         <div class="opt-label info notif-countdown">Next update in <span>n</span> seconds</div>
+                    </div>
+                    <div class="opt">
+                        <div class="opt-label">Server Updates</div>
+                        <label class="server-update switch">
+                            <input type="checkbox" checked>
+                            <span class="slider round"></span>
+                        </label>
                     </div>
                     <div class="opt">
                         <div class="opt-label">Server Interval</div>
@@ -58,6 +65,42 @@ var smp_menu_html = `
                             <div class="display"><span>n</span> secs</div>
                         </div>
                         <div class="opt-label info mute-timeout">Unmute in <span>n</span> seconds</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category">
+                <div class="cat-label">Auto Entry</div>
+                <div class="options auto-entry">
+                    <div class="opt">
+                        <label class="auto-entry switch">
+                            <input type="checkbox" checked>
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="opt">
+                        <div class="opt-label">Threshold</div>
+                        <div class="range-container threshold">
+                            <div class="slidecontainer">
+                                <input type="range" min="0.5" max="10" value="0.5" class="range-slider round">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="opt">
+                        <div class="opt-label">Interval</div>
+                        <div class="range-container interval">
+                            <div class="slidecontainer">
+                                <input type="range" min="200" max="2000" value="333" class="range-slider round">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="opt">
+                        <div class="opt-label">Tries</div>
+                        <div class="range-container tries">
+                            <div class="slidecontainer">
+                                <input type="range" min="1" max="50" value="10" class="range-slider round">
+                            </div>
+                            <div class="display"><span>n</span> tries left</div>
+                        </div>
                     </div>
                 </div>
             </div>
