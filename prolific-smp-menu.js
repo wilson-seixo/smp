@@ -81,7 +81,7 @@ var smp_menu_html = `
                         <div class="opt-label">Threshold</div>
                         <div class="range-container threshold">
                             <div class="slidecontainer">
-                                <input type="range" min="0.01" max="10" value="0.5" data-unit-s="£" data-unit-m="£" step="0.01" class="range-slider round">
+                                <input type="range" min="0" max="5" value="0.5" data-unit-s="£" data-unit-m="£" step="0.05" class="range-slider round">
                             </div>
                             <div class="display"><span>n</span> £</div>
                         </div>
