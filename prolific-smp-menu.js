@@ -103,7 +103,7 @@ var smp_menu_html = `
                             </div>
                             <div class="display"><span>n</span> tries</div>
                         </div>
-                        <div class="opt-label info auto-entry-tries">Tries left: <span>n</span></div>
+                        <div class="opt-label info auto-entry-tries">Tries left: <span>n</span></div> 
                     </div>
                 </div>
             </div>
