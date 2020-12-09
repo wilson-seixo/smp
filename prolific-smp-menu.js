@@ -24,7 +24,7 @@ var smp_menu_html = `
                         <div class="opt-label">Prolific Interval</div>
                         <div class="range-container notif-int">
                             <div class="slidecontainer">
-                                <input type="range" min="5" max="30" value="15" data-unit-s="sec" data-unit-m="secs" data-unit-t="int" class="range-slider round">
+                                <input type="range" min="5" max="30" value="15" data-unit-s="sec" data-unit-m="secs" class="range-slider round">
                             </div>
                             <div class="display"><span>n</span> secs</div>
                         </div>
@@ -41,7 +41,7 @@ var smp_menu_html = `
                         <div class="opt-label">Server Interval</div>
                         <div class="range-container sv-notif-int">
                             <div class="slidecontainer">
-                                <input type="range" min="1" max="30" value="3" data-unit-s="sec" data-unit-m="secs" data-unit-t="int" class="range-slider round">
+                                <input type="range" min="1" max="30" value="3" data-unit-s="sec" data-unit-m="secs" class="range-slider round">
                             </div>
                             <div class="display"><span>n</span> secs</div>
                         </div>
@@ -51,7 +51,7 @@ var smp_menu_html = `
                         <div class="opt-label">Freshness Time</div>
                         <div class="range-container freshness-int">
                             <div class="slidecontainer">
-                                <input type="range" min="5" max="120" value="45" data-unit-s="sec" data-unit-m="secs" data-unit-t="int" class="range-slider round">
+                                <input type="range" min="5" max="120" value="45" data-unit-s="sec" data-unit-m="secs" class="range-slider round">
                             </div>
                             <div class="display"><span>n</span> secs</div>
                         </div>
@@ -60,7 +60,7 @@ var smp_menu_html = `
                         <div class="opt-label">Mute Timeout</div>
                         <div class="range-container mute-int">
                             <div class="slidecontainer">
-                                <input type="range" min="10" max="60" value="15" data-unit-s="sec" data-unit-m="secs" data-unit-t="int" class="range-slider round">
+                                <input type="range" min="10" max="60" value="15" data-unit-s="sec" data-unit-m="secs" class="range-slider round">
                             </div>
                             <div class="display"><span>n</span> secs</div>
                         </div>
@@ -81,7 +81,7 @@ var smp_menu_html = `
                         <div class="opt-label">Threshold</div>
                         <div class="range-container threshold">
                             <div class="slidecontainer">
-                                <input type="range" min="0.5" max="10" value="0.5" data-unit-s="£" data-unit-m="£" data-unit-t="float" class="range-slider round">
+                                <input type="range" min="0.01" max="10" value="0.5" data-unit-s="£" data-unit-m="£" step="0.01" class="range-slider round">
                             </div>
                             <div class="display"><span>n</span> £</div>
                         </div>
@@ -90,7 +90,7 @@ var smp_menu_html = `
                         <div class="opt-label">Interval</div>
                         <div class="range-container interval">
                             <div class="slidecontainer">
-                                <input type="range" min="200" max="2000" value="333" data-unit-s="ms" data-unit-m="ms" data-unit-t="int" class="range-slider round">
+                                <input type="range" min="200" max="2000" value="333" data-unit-s="ms" data-unit-m="ms" class="range-slider round">
                             </div>
                             <div class="display"><span>n</span> ms</div>
                         </div>
@@ -99,7 +99,7 @@ var smp_menu_html = `
                         <div class="opt-label">Tries</div>
                         <div class="range-container tries">
                             <div class="slidecontainer">
-                                <input type="range" min="1" max="50" value="10" data-unit-s="try" data-unit-m="tries" data-unit-t="int" class="range-slider round">
+                                <input type="range" min="1" max="50" value="10" data-unit-s="try" data-unit-m="tries" class="range-slider round">
                             </div>
                             <div class="display"><span>n</span> tries</div>
                         </div>
@@ -120,7 +120,7 @@ var smp_menu_html = `
                         <div class="opt-label">Interval</div>
                         <div class="range-container forced-int">
                             <div class="slidecontainer">
-                                <input type="range" min="5" max="30" value="15" data-unit-s="sec" data-unit-m="secs" data-unit-t="int" class="range-slider round">
+                                <input type="range" min="5" max="30" value="15" data-unit-s="sec" data-unit-m="secs" class="range-slider round">
                             </div>
                             <div class="display"><span>n</span> secs</div>
                         </div>
